@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
+    </head>
+   <body>
+   	<div class="container">
+   		<div class="card">
+   			<div class="row">
+   				<div class="col-md-4">
+   					<img src="https://www.freedigitalphotos.net/images/img/homepage/394230.jpg" class="img-fluid">
+   				</div>
+   				<div class="col-md-8">
+   					<h3 class="card-title">'.$row["subject_name"].'</h3>
+   					<p class="card-subtitle teacher" id="">-'.$row["Name"].'</p>
+   					<p>lorem lipimmfsdkmf fnlf dfjnlsf kfjdlf fjfid aaijif fjijfi ifjif ifjijf fejfi</p>
+   					<div class="row">
+   						<div class="col-md-4">
+   							<p class="card-text price">price: '.$row["Price"].'</p>
+   						</div>
+   						<div class="col-md-8">
+   							<button class=" btn btn-success">view</button>
+   						</div>
+   					</div>
+   					
+   				</div>
+   			</div>
+   		</div>
+   	</div>
+
+
+
+
+<div class="card mb-3" style="width: 100%;">
+          <div class="row no-gutters">
+            <div class="col-md-4">
+              <div class="card-img" style="height:265px;"><img src="https://www.gettyimages.in/gi-resources/images/500px/983794168.jpg"></div>
+              
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">'.$row["subject_name"].'</h5>
+                <p class="card-subtitle teacher" id="">-'.$row["Name"].'</p>
+                <p class="card-text price">price: '.$row["Price"].'</p>
+                <div class="col-md-3 float-right">
+                  <a class="btn btn-secondary" href="course.html?id='.$row["subject_id"].'">View</a>
+                  <a onclick="addtocart('.$row["subject_id"].')" class="btn btn-secondary float-right">Add to cart</a>
+                </div>
+                        
+              </div>
+            </div>
+          </div>
+        </div>
+
+   </body>
+<!-- Scripts -->
+    <script src="js/jquery.min.js"></script>
+    <!-- jQuery for Bootstrap's JavaScript plugins -->
+    <script src="js/popper.min.js"></script>
+    <!-- Popper tooltip library for Bootstrap -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Bootstrap framework -->
+    <script src="js/jquery.easing.min.js"></script>
+    <!-- jQuery Easing for smooth scrolling between anchors -->
+    <script src="js/swiper.min.js"></script>
+    <!-- Swiper for image and text sliders -->
+    <script src="js/jquery.magnific-popup.js"></script>
+    <!-- Magnific Popup for lightboxes -->
+    <script src="js/validator.min.js"></script>
+
+</html>

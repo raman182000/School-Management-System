@@ -1,0 +1,50 @@
+database Name :cpi
+tables:-
+1.Users/Students
+2.Teachers
+3.Orders
+4.Subjects
+5.Contact Users
+6.cart
+
+Subjects
+1.Subject id
+2.Subject Name
+3.Price
+4.class
+
+Users/Students
+1.id(not compul.)
+2.Name
+3.email
+4.Contact no.
+6.Address
+7.DOB
+8.Session id
+9.Gender
+10.password
+
+Teachers
+1.teacher id
+2.Name
+3.email
+4.Contact no
+5.Address
+6.class applied
+7.Subjects applied(fetch from subjects)
+8.status
+9.password
+
+Orders
+1.Order id
+2.subject id
+3.Session id
+4.subject Name
+5.price
+6.teacher_id
+7.teacher name
+8.class
+
+cart
+1.Session id
+2.subject id

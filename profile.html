@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login Cards</title>
+    <link type="text/css" href="css/bootstrap.min.css" rel="stylesheet" />
+    <link type="text/css"  href="css/fontawesome-all.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/sina-nav.css">
+    <link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="css/profile.css" rel="stylesheet">
+	
+</head>
+<body>
+<!-- Navigation -->
+    <div class="nav-container" style="top: 0;z-index: 100;">
+	<nav class="sina-nav mobile-sidebar navbar-fixed" data-top="60" style="border: 0;">
+		<div class="container">
+
+			
+
+			<div class="extension-nav">
+				<ul>
+					<li class="search"><a href="#"><i class="fa fa-search"></i></a></li>
+					<li class="cart"><a href="cart.html"><i class="fa fa-shopping-bag"></i></a></li>
+				</ul>
+			</div><!-- .extension-nav -->
+
+			<div class="sina-nav-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+					<i class="fa fa-bars"></i>
+				</button>
+				<a class="sina-brand" href="#">
+					<h2>
+						CPIr
+					</h2>
+					<p>The Art OF Excellence</p>
+				</a>
+			</div><!-- .sina-nav-header -->
+
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="navbar-menu">
+				<ul class="sina-menu sina-menu-right" data-in="fadeInLeft" data-out="fadeInOut">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="#about">About</a></li>
+					<li class="dropdown menu-item-has-mega-menu">
+						<a href="#"  data-toggle="dropdown">Megamenu</a>
+						<div class="mega-menu dropdown-menu">
+							<ul class="mega-menu-row" role="menu">
+								<li class="mega-menu-col col-md-4">
+									<h4 class="mega-menu-col-title">Menu Titlle</h4>
+									<ul class="sub-menu">
+										<li><a href="#">Custom Menu</a></li>
+										<li><a href="#">Custom Menu</a></li>
+										<li><a href="#">Custom Menu</a></li>
+									</ul>
+								</li>
+								<li class="mega-menu-col col-md-4">
+									<h4 class="mega-menu-col-title">Menu Titlle</h4>
+									<ul class="sub-menu">
+										<li><a href="#">Custom Menu</a></li>
+										<li><a href="#">Custom Menu</a></li>
+										<li><a href="#">Custom Menu</a></li>
+									</ul>
+								</li>
+								<li class="mega-menu-col col-md-4">
+									<h4 class="mega-menu-col-title">Menu Titlle</h4>
+									<ul class="sub-menu">
+										<li><a href="#">Custom Menu</a></li>
+										<li><a href="#">Custom Menu</a></li>
+										<li><a href="#">Custom Menu</a></li>
+									</ul>
+								</li>
+							</ul><!-- end row -->
+						</div>
+					</li>
+					<li><a href="#contact">Contact</a></li>
+					<li id="loged-out"><a href="join.html">Login/Register</a></li>
+				</ul>
+			</div><!-- /.navbar-collapse -->
+			<div class="search-box">
+		        <form action="search.html">
+		          <span class="search-addon close-search"><i class="fa fa-times"></i></span>
+		          <div class="search-input">
+		            <input type="search" class="form-control" placeholder="Search here" name="search_txt">
+		          </div>
+		          <span class="search-addon search-icon"><i class="fa fa-search"></i></span>
+		        </form>
+		     </div><!-- .search-box -->
+
+		</div><!-- .container -->
+	</nav>
+	
+</div>
+
+
+<div class="container mt-4 mb-3">
+	<div class="row gutters">
+		<div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12">
+			<div class="card h-100">
+				<div class="card-body">
+					<div class="account-settings">
+						<div class="user-profile">
+							<div class="user-avatar">
+								<img src="https://bootdey.com/img/Content/avatar/avatar1.png" alt="Maxwell Admin">
+							</div>
+							<h5 class="user-name">Yuki Hayashi</h5>
+							<h6 class="user-email">yuki@Maxwell.com</h6>
+						</div>
+						<div class="about">
+							<h5 class="mb-2 text-primary">About</h5>
+							<p>I'm Yuki. Full Stack Designer I enjoy creating user-centric, delightful and human experiences.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-xl-9 col-lg-9 col-md-12 col-sm-12 col-12">
+			<div class="card h-100">
+				<div class="card-body">
+					<div class="row gutters">
+						<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+							<h6 class="mb-3 text-primary">Personal Details</h6>
+						</div>
+						<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+							<div class="form-group">
+								<label for="fullName">Full Name</label>
+								<input type="text" class="form-control" id="fullName" placeholder="Enter full name">
+							</div>
+						</div>
+						<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+							<div class="form-group">
+								<label for="eMail">Email</label>
+								<input type="email" class="form-control" id="eMail" placeholder="Enter email ID">
+							</div>
+						</div>
+						<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+							<div class="form-group">
+								<label for="phone">Phone</label>
+								<input type="text" class="form-control" id="phone" placeholder="Enter phone number">
+							</div>
+						</div>
+						<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+							<div class="form-group">
+								<label for="website">Website URL</label>
+								<input type="url" class="form-control" id="website" placeholder="Website url">
+							</div>
+						</div>
+					</div>
+					<div class="row gutters">
+						<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+							<h6 class="mb-3 text-primary">Address</h6>
+						</div>
+						<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+							<div class="form-group">
+								<label for="Street">Street</label>
+								<input type="name" class="form-control" id="Street" placeholder="Enter Street">
+							</div>
+						</div>
+						<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+							<div class="form-group">
+								<label for="ciTy">City</label>
+								<input type="name" class="form-control" id="ciTy" placeholder="Enter City">
+							</div>
+						</div>
+						<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+							<div class="form-group">
+								<label for="sTate">State</label>
+								<input type="text" class="form-control" id="sTate" placeholder="Enter State">
+							</div>
+						</div>
+						<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+							<div class="form-group">
+								<label for="zIp">Zip Code</label>
+								<input type="text" class="form-control" id="zIp" placeholder="Zip Code">
+							</div>
+						</div>
+					</div>
+					<div class="row gutters">
+						<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+							<div class="text-right">
+								<button type="button" id="submit" name="submit" class="btn btn-secondary">Cancel</button>
+								<button type="button" id="submit" name="submit" class="btn btn-primary">Update</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+
+
+<!-- Footer -->
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="footer-col">
+              <h4>About CPI</h4>
+              <p>
+                We're passionate about offering best online education. CPI also offering some course related to proggraming language.
+              </p>
+            </div>
+          </div>
+          <!-- end of col -->
+          <div class="col-md-4">
+            <div class="footer-col middle">
+              <h4>Important Links</h4>
+              <ul class="list-unstyled li-space-lg">
+                <li class="media">
+                  <i class="fas fa-square"></i>
+                  <div class="media-body">
+                    Our business partners
+                    <a class="turquoise" href="#your-link">Sri Sangmitra</a>
+                  </div>
+                </li>
+                <li class="media">
+                  <i class="fas fa-square"></i>
+                  <div class="media-body">
+                    Read our
+                    <a class="turquoise" href="terms-conditions.html"
+                      >Terms & Conditions</a
+                    >,
+                    <a class="turquoise" href="privacy-policy.html"
+                      >Privacy Policy</a
+                    >
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- end of col -->
+          <div class="col-md-4">
+            <div class="footer-col last">
+              <h4>Social Media</h4>
+              <span class="fa-stack">
+                <a href="#your-link">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-facebook-f fa-stack-1x"></i>
+                </a>
+              </span>
+              <span class="fa-stack">
+                <a href="#your-link">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-twitter fa-stack-1x"></i>
+                </a>
+              </span>
+              <span class="fa-stack">
+                <a href="#your-link">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-google-plus-g fa-stack-1x"></i>
+                </a>
+              </span>
+              <span class="fa-stack">
+                <a href="#your-link">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-instagram fa-stack-1x"></i>
+                </a>
+              </span>
+              <span class="fa-stack">
+                <a href="#your-link">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-linkedin-in fa-stack-1x"></i>
+                </a>
+              </span>
+            </div>
+          </div>
+          <!-- end of col -->
+        </div>
+        <!-- end of row -->
+      </div>
+      <!-- end of container -->
+    </div>
+    <!-- end of footer -->
+    <!-- end of footer -->
+
+    <!-- Copyright -->
+    <div class="copyright">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <p class="p-small">
+              Copyright © 2020 <a href="https://inovatik.com">CPI</a> - All
+              rights reserved
+            </p>
+          </div>
+          <!-- end of col -->
+        </div>
+        <!-- enf of row -->
+      </div>
+      <!-- end of container -->
+    </div>
+    <!-- end of copyright -->
+    <!-- end of copyright -->
+
+
+	<script src="js/jquery.min.js"></script>
+    <!-- jQuery for Bootstrap's JavaScript plugins -->
+    <script src="js/sweetalert.min.js"></script>
+    <script src="js/join.js"></script>
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
+	<script src="js/sina-nav.js"></script>
+</body>
+</html>
